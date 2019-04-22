@@ -7,7 +7,7 @@
 //    "editor.fontFamily": "'Source Code Variable'",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "workbench.colorTheme": "Night Owl",
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#00BCD4",
         "list.activeSelectionForeground": "#00BCD4",
