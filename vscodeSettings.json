@@ -4,10 +4,8 @@
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
-//    "editor.fontFamily": "'Source Code Variable'",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Night Owl",
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#00BCD4",
         "list.activeSelectionForeground": "#00BCD4",
@@ -22,17 +20,20 @@
         "editorLineNumber.foreground": "#666666",
         "editorLineNumber.activeForeground": "#fcb553"
     },
-    "editor.fontFamily": "'Fira Code'",
+    // "editor.fontFamily": "'Source Code Variable'",
+    "editor.fontFamily": "'Fira Code Light'",    
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
     "editor.lineHeight": 21,
     "editor.tokenColorCustomizations": {
-        "comments": "#666666",
-        "strings": "#3a9183",
+        // "comments": "#2ebb03",
+        // "strings": "#3a9183",
         "functions": "#a984ff",
         "variables": "#b5b5b5"
     },
     "editor.cursorStyle": "block",
-    "editor.minimap.enabled": false
+    "workbench.colorTheme": "Cobalt2",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true
 
 }
