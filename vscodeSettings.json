@@ -21,19 +21,43 @@
         "editorLineNumber.activeForeground": "#fcb553"
     },
     // "editor.fontFamily": "'Source Code Variable'",
-    "editor.fontFamily": "'Fira Code Light'",    
-    "editor.fontLigatures": true,
+    // "editor.fontFamily": "'Fira Code'", 
+    "editor.fontFamily": "'Cascadia Code'",
     "editor.fontSize": 15,
     "editor.lineHeight": 21,
     "editor.tokenColorCustomizations": {
-        // "comments": "#2ebb03",
+        "comments": "#9fbb03",
         // "strings": "#3a9183",
-        "functions": "#a984ff",
-        "variables": "#b5b5b5"
+        // "functions": "#a984ff",
+        "variables": "#b5b5b5",
     },
     "editor.cursorStyle": "block",
-    "workbench.colorTheme": "Cobalt2",
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
     "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true
-
+    "liveServer.settings.donotShowInfoMsg": true,
+    "dimmer.context": 5,
+    "dimmer.enabled": true,
+    "dimmer.opacity": 80,
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "question",
+            "type": "text-and-comment",
+            "foreground": "yellow",
+            "iconColour": "yellow"
+        },
+        "FIXME": {
+            "icon": "alert",
+            "type": "text-and-comment",
+            "foreground": "red",
+            // "iconColour": "yellow"
+        }
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.jsxSingleQuote": true,
+    "editor.fontLigatures": true,
+    "eslint.no-unused-vars": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.formatOnSave": true
 }
