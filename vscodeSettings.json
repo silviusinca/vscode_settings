@@ -1,7 +1,6 @@
 {
     "css.validate": false,
     "search.location": "panel",
-    "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -20,18 +19,15 @@
         "editorLineNumber.foreground": "#666666",
         "editorLineNumber.activeForeground": "#fcb553"
     },
-    // "editor.fontFamily": "'Source Code Variable'",
-    // "editor.fontFamily": "'Fira Code'", 
     "editor.fontFamily": "'Cascadia Code'",
     "editor.fontSize": 15,
     "editor.lineHeight": 21,
     "editor.tokenColorCustomizations": {
         "comments": "#9fbb03",
-        // "strings": "#3a9183",
-        // "functions": "#a984ff",
-        "variables": "#b5b5b5",
+        "variables": "#b5b5b5"
     },
     "editor.cursorStyle": "block",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Material Theme Ocean High Contrast",
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
@@ -48,8 +44,7 @@
         "FIXME": {
             "icon": "alert",
             "type": "text-and-comment",
-            "foreground": "red",
-            // "iconColour": "yellow"
+            "foreground": "red"
         }
     },
     "emmet.includeLanguages": {
@@ -59,5 +54,6 @@
     "editor.fontLigatures": true,
     "eslint.no-unused-vars": false,
     "C_Cpp.updateChannel": "Insiders",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}"
 }
